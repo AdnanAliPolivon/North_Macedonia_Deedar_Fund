@@ -1,39 +1,23 @@
 # North Macedonia Students Deedar Fund
 
-A static GitHub Pages informational fundraising proposal page for Ismaili students based at South East European University, North Macedonia, seeking support for travel to Berlin for Deedar on 4 July 2026.
+A static GitHub Pages website for an informational fundraising proposal to support Ismaili students at South East European University in North Macedonia with estimated travel and accommodation costs for Deedar in Berlin.
 
 ## Files
 
-- `index.html` — page structure and content
-- `styles.css` — design, layout, responsive styling
-- `script.js` — countdown and cost calculator
+- `index.html` — website structure and text
+- `styles.css` — visual design, background pattern, layout, responsiveness
+- `script.js` — slideshow, countdown, student table, and cost calculator
+- `assets/` — hero images and background pattern
 
-## How to publish on GitHub Pages
+## Publish on GitHub Pages
 
-1. Create a new GitHub repository, for example: `deedar-student-fund`.
-2. Upload these files to the repository root.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-5. Save.
-6. GitHub will generate a live website link.
+1. Create a public GitHub repository.
+2. Upload all files and the `assets` folder.
+3. Open repository `Settings` → `Pages`.
+4. Select `Deploy from a branch`.
+5. Choose branch `main` and folder `/root`.
+6. Save and wait for GitHub to publish the link.
 
-## What to edit
+## Update
 
-In `index.html`, update:
-
-- Student names and details
-- Event time if needed
-- Accommodation place and number of nights
-- Cost ranges
-- Any official language preferred by the fundraising coordinator
-
-In `script.js`, update:
-
-```js
-const deedarDate = new Date('2026-07-04T10:00:00+02:00');
-```
-
-Use the final confirmed Deedar time if available.
+Edit `script.js` to update student names or cost ranges. Edit `index.html` for wording and section text. Edit `styles.css` for colors, spacing, and layout.
